@@ -1,0 +1,35 @@
+{
+  "name": "@media-intelligence/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@media-intelligence/shared": "workspace:*",
+    "@media-intelligence/database": "workspace:*",
+    "@media-intelligence/scrapers": "workspace:*",
+    "@media-intelligence/ai-analyzer": "workspace:*",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/env": "^4.3.0",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^2.1.0",
+    "fastify": "^4.25.2",
+    "bullmq": "^5.1.5",
+    "ioredis": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

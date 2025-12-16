@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm init)",
+      "Bash(pnpm install)",
+      "Bash(docker-compose:*)",
+      "Bash(docker pull:*)",
+      "Bash(pnpm build:*)",
+      "Bash(cat:*)",
+      "Bash(pnpm --filter @media-intelligence/shared build:*)",
+      "Bash(pnpm --filter @media-intelligence/database build)",
+      "Bash(pnpm --filter @media-intelligence/scrapers build:*)",
+      "Bash(pnpm --filter @media-intelligence/ai-analyzer build:*)",
+      "Bash(docker ps:*)",
+      "Bash(pnpm --filter @media-intelligence/api dev:*)",
+      "Bash(curl:*)",
+      "Bash(docker inspect:*)"
+    ]
+  }
+}
