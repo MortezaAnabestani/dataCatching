@@ -1,0 +1,14 @@
+{
+  "name": "@media-intelligence/trend-analyzer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.6"
+  }
+}
